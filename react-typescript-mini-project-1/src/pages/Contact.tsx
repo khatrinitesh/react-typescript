@@ -58,9 +58,9 @@ const Contact: React.FC = () => {
   return (
     <>
       <div className="container py-[30px] mx-auto px-[1rem]">
-        <HeadTitle >Contact</HeadTitle>
-        <div className="fillForm max-w-md mx-auto mt-10 p-6 rounded-[30px] bg-white shadow-md rounded">
-          <h2 className="text-2xl font-bold mb-6">Custom Form</h2>
+        
+        <div className="fillForm max-w-md grid gap-[20px] mx-auto mt-10 p-6 rounded-[30px] bg-white shadow-md rounded">
+          <HeadTitle headStyle="!text-white">Contact</HeadTitle>
           <form onSubmit={handleSubmit}>
             <InputField
               label="Name"

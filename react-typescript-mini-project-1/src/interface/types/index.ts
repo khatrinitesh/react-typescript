@@ -12,7 +12,7 @@ export interface NavItem {
 }
 export interface HeadTitleProps{
     children:React.ReactNode;
-    headStyle?:React.CSSProperties;
+    headStyle?:string ;
 }
 
 export interface InputFieldProps {
