@@ -1,0 +1,38 @@
+/* responsive-box.css */
+.responsive-box {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 2rem;
+  text-align: center;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: background 0.3s ease;
+}
+
+/* Breakpoint-specific styles */
+@media (max-width: 480px) {
+  .responsive-box {
+    background-color: rgba(255, 100, 100, 0.15);
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .responsive-box {
+    background-color: rgba(255, 200, 100, 0.15);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .responsive-box {
+    background-color: rgba(100, 255, 100, 0.15);
+  }
+}
+
+@media (min-width: 1025px) {
+  .responsive-box {
+    background-color: rgba(100, 200, 255, 0.15);
+  }
+}
